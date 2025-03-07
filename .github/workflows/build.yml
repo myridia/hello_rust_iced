@@ -17,7 +17,7 @@ permissions:
 jobs:
   # Single deploy job since we're just deploying
   build_linux_windows:
-    if: github.repository_owner == 'myridia'
+    if: github.repository_owner == 'myridiax'
     runs-on: ubuntu-latest   
     steps:
       - name: Install Dependencies
@@ -50,7 +50,7 @@ jobs:
       - name: rename builds 
         run: |
           cp target/x86_64-unknown-linux-gnu/release/hello_rust_iced target/x86_64-unknown-linux-gnu/release/hello_rust_iced_linux
-          cp target/x86_64-unknown-linux-gnu/release/hello_rust_iced.exe target/x86_64-unknown-linux-gnu/release/hello_rust_iced_win64.exe
+          cp target/x86_64-pc-windows-gnu/release/hello_rust_iced.exe target/x86_64-unknown-linux-gnu/release/hello_rust_iced_win64.exe
           cp target/i686-pc-windows-gnu/release/hello_rust_iced.exe target/i686-pc-windows-gnu/release/hello_rust_iced_win32.exe  
 
       - name: Upload Builds to release
