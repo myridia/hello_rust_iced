@@ -1,6 +1,6 @@
 [package]
 name = "hello_rust_iced"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Myridia <info@myrida.com>"]
 edition = "2024"
 publish = false
