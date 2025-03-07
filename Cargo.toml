@@ -1,5 +1,5 @@
 [package]
-name = "counter"
+name = "hello_rust_iced"
 version = "0.1.0"
 authors = ["Myridia <info@myrida.com>"]
 edition = "2024"
