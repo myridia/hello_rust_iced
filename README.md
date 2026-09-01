@@ -1,3 +1,5 @@
+<img src="hello_rust_iced.svg" alt="hello_rust_iced" width="120">
+
 ## Hello World Rust Iced
 
 ## Requirements for Debian
